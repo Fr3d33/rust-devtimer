@@ -1,6 +1,6 @@
 # Contributing to DevTimer
 
-Thank you for considering contributing to DevTimer! 🎉
+Thank you for considering contributing to DevTimer!
 
 ## How to Contribute
 

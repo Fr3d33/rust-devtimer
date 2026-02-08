@@ -1,20 +1,20 @@
-# ⏱️ DevTimer
+# DevTimer
 
 A simple, fast, and efficient command-line time tracking tool written in Rust.
 
-## 📋 Description
+## Description
 
 DevTimer is a lightweight CLI application that helps developers track time spent on various tasks. It stores tracking data locally in JSON format, making it easy to manage and review your work sessions.
 
-## ✨ Features
+## Features
 
-- 🚀 **Fast and Lightweight** - Built with Rust for optimal performance
-- 📝 **Simple Commands** - Easy-to-remember commands for starting, stopping, and viewing timers
-- 💾 **Local Storage** - All data stored locally in JSON format
-- ⏰ **Detailed Statistics** - View elapsed time in days, hours, minutes, and seconds
-- 🔧 **No Dependencies** - Self-contained executable, no external services required
+- **Fast and Lightweight** - Built with Rust for optimal performance
+- **Simple Commands** - Easy-to-remember commands for starting, stopping, and viewing timers
+- **Local Storage** - All data stored locally in JSON format
+- **Detailed Statistics** - View elapsed time in days, hours, minutes, and seconds
+- **No Dependencies** - Self-contained executable, no external services required
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ To use `devtimer` from anywhere, add the executable to your PATH:
 sudo cp target/release/devtimer /usr/local/bin/
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Quick Start
 
@@ -100,7 +100,7 @@ devtimer
 ```
 Running `devtimer` without arguments shows the help menu with available commands.
 
-## 📁 Data Storage
+## Data Storage
 
 DevTimer stores all tracking data in a `saved_times.json` file in the current directory. The file contains:
 - Task description
@@ -118,7 +118,7 @@ DevTimer stores all tracking data in a `saved_times.json` file in the current di
 ]
 ```
 
-## 🛣️ Roadmap
+## Roadmap
 
 - [ ] List all tracked entries
 - [ ] Export data to CSV
@@ -127,24 +127,24 @@ DevTimer stores all tracking data in a `saved_times.json` file in the current di
 - [ ] Tags and categories
 - [ ] Interactive TUI mode
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Rust](https://www.rust-lang.org/)
 - Uses [serde](https://serde.rs/) for JSON serialization
 - Uses [chrono](https://github.com/chronotope/chrono) for date/time handling
 
-## 📧 Contact
+## Contact
 
 For questions or suggestions, please open an issue on GitHub.
 
 ---
 
-Made with ❤️ by developers, for developers
+Made with love by developers, for developers
