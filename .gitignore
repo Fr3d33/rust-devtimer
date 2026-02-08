@@ -1,1 +1,22 @@
-/target
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local time tracking data
+saved_times.json
+
+# Backup files
+*.bak
+*.backup
+saved_times.json
